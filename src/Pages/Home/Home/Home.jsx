@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import ChefService from "../ChefService/ChefService";
+import PopularManu from "../PopularManu/PopularManu";
 import Category from "../Swiper/Category";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <Banner></Banner>
             <Category></Category>
             <ChefService></ChefService>
+            <PopularManu></PopularManu>
         </div>
     );
 };
