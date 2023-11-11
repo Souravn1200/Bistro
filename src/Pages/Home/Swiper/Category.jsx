@@ -8,10 +8,16 @@ import image2 from '../../../assets/assets/home/slide2.jpg'
 import image3 from '../../../assets/assets/home/slide3.jpg'
 import image4 from '../../../assets/assets/home/slide4.jpg'
 import image5 from '../../../assets/assets/home/slide5.jpg'
+import Pagetitle from '../../../Components/Pagetitle';
 
 const Category = () => {
     return (
-        <Swiper
+        
+       <section>
+
+        <Pagetitle subHeading="From 10 am to 11 pm" Heading="Order online"></Pagetitle>
+
+         <Swiper
         slidesPerView={4}
         spaceBetween={30}
         centeredSlides={true}
@@ -45,6 +51,7 @@ const Category = () => {
             <h2 className='text-3xl font-serif italic text-white text-center -mt-16 drop-shadow-md text-shadow'>Salad</h2>
         </SwiperSlide>
       </Swiper>
+       </section>
     );
 };
 
